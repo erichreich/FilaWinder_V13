@@ -1,5 +1,5 @@
 //Filament Winder Original by Ian Johnson
-//Version_13  by Erich Reich 04.2024 
+//Version_13  by Erich Reich 10.05.2024 
 //www.erichreich.ch
 //with Arduino IDE 2.3.2 , for Arduino-Nano (and Arduino-Nano-Every)
 
@@ -52,11 +52,11 @@ const int REFRESH_INTERVAL = 20000.00;     // minumim time to refresh servoimpul
 const int SERVO_ANGLE_RANGE = 120.00;      // servo angle range 180 (-90 to +90) or 120 (-60 to +60) degrees
 
 
-float puls = 1500.00;                   //middle servo position in pulses
+float puls = 1500.00;                   //servo position in pulses
 float guide_min = 45.00;                //Right limit for filament guide
 float guide_max = 70.00;               //Left limit for Filamnet guide
 int guide_direction = 0;                //Direction the guide is moving
-float guide_angle = 45.00;              //actual servo position in degrees
+float guide_angle = 45.00;              //servo position in degrees
 
 
 
