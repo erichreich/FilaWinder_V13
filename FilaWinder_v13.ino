@@ -53,8 +53,8 @@ const int SERVO_ANGLE_RANGE = 120.00;      // servo angle range 180 (-90 to +90)
 
 
 float puls = 1500.00;                   //servo position in pulses
-float guide_min = 45.00;                //Right limit for filament guide
-float guide_max = 70.00;                //Left limit for Filamnet guide
+float guide_min = 45.00;                //Left limit for filament guide
+float guide_max = 70.00;                //Right limit for Filamnet guide
 int guide_direction = 0;                //Direction the guide is moving
 float guide_angle = 45.00;              //servo position in degrees
 
