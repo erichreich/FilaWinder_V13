@@ -47,14 +47,14 @@ int hall_a_mode = 0;       //Has Hall A been triggered?
 
 const int MIN_PULSE_WIDTH = 900.00;        // the shortest pulse sent to a servo (pulse at min.degrees, by -90 or -60 degrees) (-90 degrees = 544us, -60 degrees = 900us)
 const int MAX_PULSE_WIDTH = 2100.00;       // the longest pulse sent to a servo (pulse at max.degrees, by +90 or +60 degrees) (+90 degrees = 2400us, +60 degrees = 2100us)
-const int DEFAULT_PULSE_WIDTH = 1500.00;   // default pulse width when servo is attached (pulse at 0 degrees)
+const int DEFAULT_PULSE_WIDTH = 1500.00;   // default pulse width when servo is attached (pulse at 90 (in servodatasheet 0) degrees)
 const int REFRESH_INTERVAL = 20000.00;     // minumim time to refresh servoimpulse in microseconds ((1 second) 1'000'000 microseconds / Hz servofrequency = REFRESH_INTERVAL)
 const int SERVO_ANGLE_RANGE = 120.00;      // servo angle range 180 (-90 to +90) or 120 (-60 to +60) degrees
 
 
 float puls = 1500.00;                   //servo position in pulses
 float guide_min = 45.00;                //Right limit for filament guide
-float guide_max = 70.00;               //Left limit for Filamnet guide
+float guide_max = 70.00;                //Left limit for Filamnet guide
 int guide_direction = 0;                //Direction the guide is moving
 float guide_angle = 45.00;              //servo position in degrees
 
